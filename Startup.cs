@@ -14,9 +14,9 @@ namespace ConsoleApplication
        {
             loggerFactory.AddConsole();
 
-            app.UseStatusCodePagesWithRedirects("/{0}.html");
-
             app.UseStaticFiles();
+            
+            app.UseStatusCodePagesWithRedirects("/{0}.html");
             
             app.Map("/mvc", mvcapp => {
                 mvcapp.UseMvcWithDefaultRoute();
