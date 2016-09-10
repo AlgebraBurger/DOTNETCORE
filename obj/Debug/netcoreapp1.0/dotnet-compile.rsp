@@ -163,3 +163,4 @@
 --reference:C:\Users\User\.nuget\packages\System.Xml.XDocument\4.0.11\ref\netstandard1.3\System.Xml.XDocument.dll
 C:\DOTNETCORE\Program.cs
 C:\DOTNETCORE\Startup.cs
+C:\DOTNETCORE\Controllers\HomeController.cs
